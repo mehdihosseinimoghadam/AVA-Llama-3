@@ -2,7 +2,7 @@
 Fine-Tuned Llama 3 Persian Large Language Model LLM / Persian Llama 3
 
 
-# AVA-Mistral-7B / Persian Mistral 7B
+# AVA-Llama-3 / Persian Llama-3 / Persian Llama 3
 
 
  <img src="https://github.com/mehdihosseinimoghadam/AVA-Llama-3/blob/main/Llama%203.png" height="600" width="940" >
@@ -401,12 +401,49 @@ You can also use colab link in the jupyter file
 
 
 
+
+
+
+
+
+
 <table width="300">
   <tr>
     <td> Model </td>
     <td> Answer </td>
     <td> Rating  </td>
   </tr>
+یک نامه خطاب به رییس شرکت من بنویسید که من در حال استعفا و ترک شرکت هستم.
+
+[Your Name]
+[Your Address]
+[City, State, ZIP]
+[Date]
+
+[CEO's Name]
+[Company Name]
+[Company Address]
+[City, State, ZIP]
+
+Dear [CEO's Name],
+
+I am writing to inform you that I have decided to resign from my position as [Position] at [Company Name], effective [Date of Last Day of Work]. This was not an easy decision for me to make, as I have truly enjoyed my time at the company and have been grateful for the opportunities that I have been given.
+
+However, I have come to realize that it is time for me to move on and explore new opportunities. I am grateful for the experience and skills that I have gained during my time at [Company Name], and I am confident that they will serve me well in my future endeavors.
+
+I want to thank you for the support and guidance that you have provided me during my time at the company. I appreciate the opportunities that you have given me to grow and develop as a professional, and I am grateful for the trust that you have placed in me.
+
+I will do everything I can to ensure a smooth transition of my responsibilities and complete any outstanding tasks before my departure. If there is anything specific that you would like me to focus on during my remaining time here, please let me know.
+
+Thank you again for the opportunity to work at [Company Name]. I wish the company all the best for the future.
+
+Sincerely,
+
+[Your Name]
+	   <tr>
+    <td> AVA-Llama-3 </td>
+    <td>
+ </td>
    <tr>
     <td> AVA-V4 </td>
     <td> ۱۳۹۹/۰۸/۱۴۰۰
@@ -472,12 +509,16 @@ You can also use colab link in the jupyter file
 ```
 
 
-
 <table width="300">
   <tr>
     <td> Model </td>
     <td> Answer </td>
     <td> Rating  </td>
+  </tr>
+   <tr>
+    <td> AVA-Llama-3 </td>
+    <td> رییس جمهور آمریکا در سال 1996، بیل کلینتون بود </td>
+    <td> </td>
   </tr>
    <tr>
     <td> AVA-V4 </td>
