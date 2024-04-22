@@ -817,12 +817,27 @@ with open("people.json", "w") as f:
 
 
 
+
+
+
+
 <table width="300">
   <tr>
     <td> Model </td>
     <td> Answer </td>
     <td> Rating  </td>
   </tr>
+ <tr>
+    <td> AVA-Llama-3 </td>
+    <td> 
+یک اسکریپت پایتون برای چاپ 1 تا 10 به این صورت می توان بنویسید:
+```
+for i in range(1, 11):
+    print(i)
+```
+این اسکریپت یک حلقه برای loop 1 تا 10 ایجاد می کند و هر بار در هر دور، عدد فعلی را چاپ می کند.
+    </td>
+    <td> </td>
    <tr>
     <td> AVA-V4 </td>
     <td> این یک اسکریپت پایتون است که از 1 تا 10 چاپ می کند:
@@ -880,12 +895,55 @@ for i in range(1, 11):
 
 
 
+
+
+
+
+
+
+
 <table width="300">
   <tr>
     <td> Model </td>
     <td> Answer </td>
     <td> Rating  </td>
   </tr>
+
+   <tr>
+    <td> AVA-Llama-3 </td>
+    <td> 
+	    
+در اینجا یک تابع Node.js برای دریافت رشته و تقسیم آن بر اساس فاصله ارائه می شود:
+```
+function splitStringBySpace(str) {
+  return str.split(' ');
+}
+
+// استفاده از تابع
+const inputString = "Hello World";
+const outputArray = splitStringBySpace(inputString);
+
+console.log(outputArray); // [ "Hello", "World" ]
+```
+این تابع از روش `split` درbuilt-in `String` در Node.js استفاده می کند تا رشته را بر اساس فاصله (که با کاراکتر فاصله `space` مشخص می شود) تقسیم کند. سپس آرایه ای از رشته های جدا شده را بازمی گرداند.
+
+اگر می خواهید رشته را بر اساس فاصله خاصی تقسیم کنید، می توانید از یک رشته به عنوان دومین آرگومان به روش `split` پاس دهید. برای مثال، برای تقسیم رشته بر اساس فاصله با فاصله 2 کاراکتر، می توانید از رشته `'\u0020'` استفاده کنید:
+```
+function splitStringBySpace(str) {
+  return str.split('\u0020');
+}
+
+// استفاده از تابع
+const inputString = "Hello   World";
+const outputArray = splitStringBySpace(inputString);
+
+console.log(outputArray); // [ "Hello", "World" ]
+```
+این تابع رشته را بر اساس فاصله 2 کاراکتر (که با کاراکتر فاصله `'\u0020'` مشخص می شود) تقسیم می کند. سپس آرایه ای از رشته های جدا شده را بازمی گرداند.
+ </td>
+    <td> </td>
+  </tr>
+ 
    <tr>
     <td> AVA-V4 </td>
     <td> یک تابع Node.js برای دریافت رشته و تقسیم آن بر اساس فاصله به شما این کد پیوند می دهم:
