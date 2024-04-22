@@ -412,7 +412,10 @@ You can also use colab link in the jupyter file
     <td> Model </td>
     <td> Answer </td>
     <td> Rating  </td>
-  </tr>
+  </tr>	   <tr>
+    <td> AVA-Llama-3 </td>
+    <td>
+	    
 یک نامه خطاب به رییس شرکت من بنویسید که من در حال استعفا و ترک شرکت هستم.
 
 [Your Name]
@@ -440,9 +443,6 @@ Thank you again for the opportunity to work at [Company Name]. I wish the compan
 Sincerely,
 
 [Your Name]
-	   <tr>
-    <td> AVA-Llama-3 </td>
-    <td>
  </td>
    <tr>
     <td> AVA-V4 </td>
