@@ -702,7 +702,10 @@ Sincerely,
     <td> Answer </td>
     <td> Rating  </td>
   </tr> 
-Here is a JSON file containing the information you requested:
+ <tr>
+    <td> AVA-Llama-3 </td>
+    <td> 
+	    Here is a JSON file containing the information you requested:
 
 ```
 [
@@ -749,9 +752,6 @@ If you want to add more information to each person, you can add additional prope
 ```
 
 Let me know if you have any other questions!
- <tr>
-    <td> AVA-Llama-3 </td>
-    <td> 
  </td>
     <td> </td>
   </tr>
