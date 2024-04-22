@@ -1030,7 +1030,7 @@ rl.on('line', (line) => {
 
 Released Jan 30, 2024 by [Mehdi Hosseini Moghadam](https://github.com/mehdihosseinimoghadam)
 
-Attention ⚠️: The user is responsible for using AVA-Mistral-7B / Persian Mistral 7B
+Attention ⚠️: The user is responsible for using AVA-Llama-3 / Persian Llama 3
 
 Any misuse of the model (of any kind) is the responsibility of the user and not the creator
 
