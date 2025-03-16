@@ -11,11 +11,6 @@ Fine-Tuned Llama 3 Persian Large Language Model LLM / Persian Llama 3
 (Still in progress)
 
 -------------------------------------------------
-### Dataset used:
-
-To Be Done
-
--------------------------------------------------
 
 
 
